@@ -9,7 +9,7 @@ try:
 	target = sys.argv[1]
 	wordlist = sys.argv[2]
 except:
-	print("Usage: python3 dnsbrute.py dominio wordlist.txt")
+	print("Usage: python dnsbrute.py domain wordlist.txt")
 	sys.exit()
 
 #WORDLIST FILE
@@ -17,7 +17,7 @@ try:
 	with open(wordlist, "r") as arq:
 		subdomains = arq.read().splitlines()
 except:
-	print("Erro ao abrir arquivo")
+	print("Error, can't open the file")
 	sys.exit()
 
 #SUBDOMAIN
