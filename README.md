@@ -1,2 +1,2 @@
-# app-dns-brute
-DNS Brute
+# DNS Brute
+DNS bruteforcing tool in Python.
